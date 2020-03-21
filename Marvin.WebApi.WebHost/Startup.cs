@@ -45,7 +45,7 @@ namespace Marvin.WebApi.WebHost
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
+            }); 
         }
     }
 }
